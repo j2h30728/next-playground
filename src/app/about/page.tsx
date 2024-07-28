@@ -4,5 +4,5 @@ export const metadata: Metadata = {
   title: "About",
 };
 export default async function AboutPage() {
-  return <main className="flex gap-2 flex-wrap">About Page</main>;
+  return <main>About Page</main>;
 }
