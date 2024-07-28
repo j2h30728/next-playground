@@ -8,7 +8,7 @@ import { ApiError } from "./customError";
 
 const fetcher = async (url: string, option?: RequestInit) => {
   const response = await fetch(url, option);
-  if (!response.ok) throw new ApiError();
+  if (!response.ok) throw new ApiError("잠시후 요청 부탁드립니다.");
   return response.json();
 };
 
