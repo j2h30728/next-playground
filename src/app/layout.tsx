@@ -6,7 +6,10 @@ import Header from "@/components/Header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Next.js Playground",
+  title: {
+    template: "%s | DAM",
+    default: "Dam's Playground",
+  },
   description: "Dam's Next.js Playground",
 };
 
